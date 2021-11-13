@@ -8,7 +8,7 @@
         
             #topbar {
 
-                width: 1000px;
+                width: 100%;
                 margin: 0 auto;
                 height: 40px;
                 
@@ -25,7 +25,8 @@
             #logo {
 
                 margin: 8px;
-                width: 120px auto;
+                margin-left: 50px;
+                width: 80px auto;
                 float: left;
                 margin-right: 15px;
 
@@ -41,8 +42,8 @@
         
             #signin-image {
 
-                width: 28px;
-                margin: 5px 13px;
+                width: 25px;
+                margin: 8px 10px;
                 float: left;
 
             }
@@ -50,9 +51,46 @@
             #signin-text {
 
                 font-weight: 600;
-                font-size: 90%;
+                font-size: 80%;
                 position: relative;
-                top: 12px;
+                top: 14px;
+                padding-right: 80px;
+
+            }
+
+            .topbar-menu {
+
+                font-weight: 600;
+                font-size: 80%;
+                padding: 13px 22px;
+                height: 14px;
+            
+            }
+            
+            #more-arrow {
+
+                width: 24px;
+                margin-left: 50px;
+                height: 12px;
+
+            }
+
+            #search-box {
+
+                background-color: #E4E4E4;
+                border:none;
+                font-weight: 600;
+                font-size: auto;
+                padding: 5px;
+                margin: 8px 0 10px 8px;
+                float: left;
+            
+            }
+
+            #magnifying-glass {
+
+                height: 26px;
+                margin-top: 8px;
 
             }
 
@@ -71,6 +109,70 @@
                 <img id="signin-image" src="Images/sign-in logo.PNG">
 
                 <span id="signin-text">Sign in</span>
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Home
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                News
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Sport
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Reel
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Worklife
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Travel
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Future
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Culture
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                More
+
+                <img id="more-arrow" src="images/dropdown symbol.PNG">
+
+            </div>
+
+            <div class="topbar-section">
+
+                <input id="search-box" type="text" value="Search">
+
+                <input type="image" id="magnifying-glass" src="images/search logo.PNG">
 
             </div>
 
