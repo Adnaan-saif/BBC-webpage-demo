@@ -42,8 +42,9 @@
         
             #signin-image {
 
-                width: 25px;
-                margin: 8px 10px;
+                width: 23px;
+                margin: 8px 5px 0 12px;
+                padding-top: 3px;
                 float: left;
 
             }
@@ -61,7 +62,7 @@
             .topbar-menu {
 
                 font-weight: 600;
-                font-size: 80%;
+                font-size: 81%;
                 padding: 13px 22px;
                 height: 14px;
             
@@ -69,7 +70,7 @@
             
             #more-arrow {
 
-                width: 24px;
+                width: 22px;
                 margin-left: 50px;
                 height: 12px;
 
@@ -94,6 +95,88 @@
 
             }
 
+            .clear {
+
+                clear: both;
+
+            }
+
+            #menu-bar-container {
+
+                border-top: 1px solid #CCCCCC;
+                background-color: #bb1919;
+                width: 100%;
+                height: 92px;
+
+            }
+
+            #menu-bar {
+
+                width: 100%;
+                margin: 0 auto;
+
+            }
+
+            h1 {
+
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 42px;
+                font-weight: 400;
+                padding-top: 8px;
+                padding-left: 45px;
+
+            }
+
+            #menu-bar-2-container {
+
+                background-color: #bb1919;
+                width: 100%;
+
+            }
+
+            #menu-bar-2 {
+
+                width: 100%;
+                margin: 0 auto;
+                height: 3px;
+                padding-top: 3px;
+
+            }
+
+            #menu-bar-2 a {
+
+                color: white;
+                text-decoration: none;
+                padding: 5px 10px;
+                border-right: 1px solid #bb4545;
+                font-size: 14px;
+                position: relative;
+                top: 5px;
+                left: 35px;
+            }
+
+            #menu-bar-2 a:hover {
+
+                text-decoration:underline;
+
+            }
+
+            .no-border {
+
+                border: none !important;
+
+            }
+
+            #down-arrow {
+
+                float: right;
+                padding-right: 98px;
+                padding-top: 4px;
+
+            }
+
         </style>
 
     </head>
@@ -112,54 +195,14 @@
 
             </div>
 
-            <div class="topbar-section topbar-menu">
-
-                Home
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                News
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Sport
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Reel
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Worklife
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Travel
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Future
-
-            </div>
-
-            <div class="topbar-section topbar-menu">
-
-                Culture
-
-            </div>
-
+            <div class="topbar-section topbar-menu">Home</div>
+            <div class="topbar-section topbar-menu"> News</div>
+            <div class="topbar-section topbar-menu">Sport</div>
+            <div class="topbar-section topbar-menu">Reel</div>
+            <div class="topbar-section topbar-menu">Worklife</div>
+            <div class="topbar-section topbar-menu">Travel</div>
+            <div class="topbar-section topbar-menu">Future</div>
+            <div class="topbar-section topbar-menu">Culture</div>
             <div class="topbar-section topbar-menu">
 
                 More
@@ -175,6 +218,44 @@
                 <input type="image" id="magnifying-glass" src="images/search logo.PNG">
 
             </div>
+
+           <div class="clear"></div>
+
+           <div id="menu-bar-container">
+
+                <div id="menu-bar">
+
+                    <h1>NEWS</h1>
+
+                </div>
+                
+                <div id="menu-bar-2-container">
+
+                    <div id="menu-bar-2">
+
+                        <a href="">Home</a>
+                        <a href="">Coronavirus</a>
+                        <a href="">Climate</a>
+                        <a href="">Video</a>
+                        <a href="">World</a>
+                        <a href="">Asia</a>
+                        <a href="">UK</a>
+                        <a href="">Business</a>
+                        <a href="">Tech</a>
+                        <a href="">Science</a>
+                        <a href="">Stories</a>
+                        <a href="">Entertainment & Arts</a>
+                        <a href="">Health</a>
+                        <a href="">World News TV</a>
+                        <a href="">In Pictures</a>
+                        <a href="" class="no-border">More</a>
+                        <img id="down-arrow" src="images/downarrow.PNG">
+
+                    </div>
+
+                </div>
+
+           </div>
 
         </div>
 
